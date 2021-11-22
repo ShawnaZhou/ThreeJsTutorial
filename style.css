@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#bg{
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+div{
+  position: relative;
+  z-index: 50;
+  height: 100vh;
+  color: rgb(25, 233, 136);
+  width: 50vw;
+}
